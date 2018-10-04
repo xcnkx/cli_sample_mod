@@ -16,10 +16,12 @@ setup(
     version='0.1.0',
     description='Sample package for Python-Guide.org',
     long_description=readme,
-    author='Kenneth Reitz',
-    author_email='me@kennethreitz.com',
-    url='https://github.com/kennethreitz/samplemod',
+    author='Cristian Kamia',
+    author_email='cnk_2806@me.com',
+    url='https://github.com/xcnkx/cli_sample_mod',
     license=license,
     packages=find_packages(exclude=('tests', 'docs'))
+    install_requires=['hoge', 'unko'],
+    dependency_links=['git+ssh://git@github.com/USERNAME/unko.git#egg=unko'],
 )
 
